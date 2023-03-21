@@ -1,6 +1,8 @@
 wget -i list.txt
 # wget -i list_stickers.txt
 
+
+# Remove the query parameters if it exists in the files downloaded by wget
 for file in *.gif*; do 
     mv -- "$file" "${file%}.gif"
 done

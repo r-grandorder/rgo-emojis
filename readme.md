@@ -8,7 +8,7 @@ var e = document.querySelectorAll("[class*=emojiInput]");
 a.document.write("============== list.txt<br/><br/>");
 
 for (var i = 0; i < p.length; i++) {
-  a.document.write(p[i].style.backgroundImage.split('"')[1] + "<br/>");
+  a.document.write(p[i].style.backgroundImage.split('"')[1].split('?')[0] + "<br/>");
 }
 
 a.document.write("============== rename_emojis.sh<br/><br/>");
